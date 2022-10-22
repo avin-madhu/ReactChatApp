@@ -1,0 +1,97 @@
+.RegisterContainer{
+    background-color: rgb(73, 59, 160);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .RegisterWrap{
+        border-radius: 8px;
+        background-color: rgb(171, 129, 233);
+        height: 70vh;
+        width: 60vh;
+        h2{
+            text-align: center;
+            font-size: 30px;
+            color: aliceblue;
+            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        form{
+
+            p{
+                color: aliceblue;
+            }
+
+            input{
+               padding: 10px;
+               border: none;
+               border-bottom: solid rgb(116, 111, 203) 2px ;
+               border-radius: 5px;
+               
+            }
+            
+                
+
+            #file{
+                
+                border: solid white 2px;
+                height: 20px;
+                width: 100px;
+                border-radius: 3px;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                cursor: pointer;
+                p{
+                    font-size: small;
+                    color: rgb(249, 245, 245);
+                    text-align: center;
+                    text-align: justify;
+                    padding-left: 9px;
+                    padding-bottom: 3px;   
+                }
+            }
+
+            button{
+                padding: 3px;
+                border-radius: 3px;
+                margin-top: 20px;
+                background-color: rgb(126, 17, 221);
+                border: none;
+                cursor: pointer;
+
+                p{
+                   font-size: medium;
+                   color: aliceblue;
+                   font-weight: 600;
+                }
+            }
+         
+           justify-content: center;
+           display: flex;
+           flex-direction: column;
+           margin-left: 40px;
+           margin-right: 40px;
+           gap: 10px;
+           
+        }
+       
+       }
+}
+
+@media screen and (max-width: 400px) {
+
+    #RegisterContainer{
+    
+        #RegisterWrap{
+            width: 100px;
+            background-color: black;
+        }
+
+    }
+}
